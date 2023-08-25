@@ -10,3 +10,14 @@ Petya and Vasya are playing a game: they take turns taking cards from the deck o
 They are tired of manually pulling cards and comparing values. They asked you to write a program that will determine the winner based on the original set of cards.
 
 It is guaranteed that for any test the winner can be determined unambiguously.
+
+
+## Complex numbers
+### Condition
+Denote by **S(n)** the sum of digits of a natural number _**n**_.
+
+We will say that a natural number **_n_** is complex if there is no such natural number **_k_**, that
+
+_**n = 3k/S(k)^2**_
+
+Find the smallest complex number.
