@@ -21,3 +21,7 @@ We will say that a natural number **_n_** is complex if there is no such natural
 _**n = 3k/S(k)^2**_
 
 Find the smallest complex number.
+
+## Sort
+
+### Bubble Sort
