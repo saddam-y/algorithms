@@ -25,3 +25,4 @@ Find the smallest complex number.
 ## Sort
 
 ### Bubble Sort
+### Reversal Linked List

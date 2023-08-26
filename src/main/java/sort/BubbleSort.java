@@ -1,15 +1,9 @@
 package sort;
 
 import java.util.Arrays;
-public class BubbleSortMain {
+public class BubbleSort {
 
-    public static void main(String[] args) {
-        int[] arrInt = new int[] {10, 34, 3, 2, 93, 12, 34, 2, 1212,2 ,3, 3, 10, 4};
-        sort(arrInt);
-        print(arrInt);
-    }
-
-    public static void sort(int[] intArr) {
+    public static int[] bubbleSort(int[] intArr) {
         int temp;
         boolean again;
 
@@ -25,9 +19,7 @@ public class BubbleSortMain {
             }
             if(!again) break;
         }
-    }
 
-    public static void print(int[] intArr) {
-        Arrays.stream(intArr).forEach(i -> System.out.print(i + " "));
+        return intArr;
     }
 }
