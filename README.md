@@ -27,6 +27,7 @@ Find the smallest complex number.
 ### Bubble Sort
 ### Reversal Linked List
 ### Line Reversal
+### Tree Search
 
 
 ## Structure Data
