@@ -28,6 +28,7 @@ Find the smallest complex number.
 ### Reversal Linked List
 ### Line Reversal
 ### Tree Search
+### Quick Sort
 
 
 ## Structure Data

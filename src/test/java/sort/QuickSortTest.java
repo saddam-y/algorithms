@@ -1,8 +1,6 @@
 package sort;
 
 import core.TestManager;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -11,18 +9,17 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BubbleSortTest {
-
+class QuickSortTest {
 
     @ParameterizedTest
     @MethodSource("getArguments")
-    public void bubbleSort(Integer[] arguments, Integer[] expectedResult){
-        var actuallyArray = BubbleSort.bubbleSort(arguments, Integer::compare);
-        assertArrayEquals(expectedResult, actuallyArray);
+    void quickSort(Integer[] arguments, Integer[] expectedResult) {
+            QuickSort.quickSort(arguments, Integer::compare);
+            assertArrayEquals(expectedResult, arguments);
     }
+
 
     public static Stream<Arguments> getArguments() {
         return TestManager.getIntegers();
     }
-
 }
