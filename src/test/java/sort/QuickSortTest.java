@@ -20,6 +20,6 @@ class QuickSortTest {
 
 
     public static Stream<Arguments> getArguments() {
-        return TestManager.getIntegers();
+        return TestManager.getIntegersListForSorting();
     }
 }

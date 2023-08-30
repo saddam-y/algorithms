@@ -1,4 +1,4 @@
-package sort;
+package search;
 
 import model.Tree;
 import structure.impl.SimpleQueue;

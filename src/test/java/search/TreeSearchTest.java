@@ -1,8 +1,9 @@
-package sort;
+package search;
 
 import model.Tree;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import search.TreeSearch;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -51,6 +52,7 @@ class TreeSearchTest {
         var actualResult = TreeSearch.sumUsingQueueWide(getTree());
         assertEquals(274, actualResult);
     }
+
 
     private Tree<Integer> getTree() {
         return new Tree<>(20,

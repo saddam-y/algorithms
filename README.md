@@ -27,9 +27,15 @@ Find the smallest complex number.
 ### Bubble Sort
 ### Reversal Linked List
 ### Line Reversal
-### Tree Search
 ### Quick Sort
 
+## Search
+
+### Tree 
+### Binary 
+algorithm complexity:
+- Ω(1)
+- O(logN)
 
 ## Structure Data
 
