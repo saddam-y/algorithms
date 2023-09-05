@@ -41,3 +41,12 @@ algorithm complexity:
 
 ### Queue
 ### Stack
+
+
+## Graph
+
+### Topological Sort
+
+This sorting returns a list of vertices so that their dependencies are taken into account
+Algorithm complexity:
+- O(n)

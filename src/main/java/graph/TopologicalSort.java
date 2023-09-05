@@ -1,4 +1,4 @@
-package sort;
+package graph;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class TopologicalSort {
         List<T> order = new ArrayList<>();
 
         for(var i = 0; i < graphs.size(); i++) {
-            if(order.indexOf(graphs.get(i)) == -1) {
+            if(!order.contains(graphs.get(i))) {
                 dfs(tree, graphs.get(i), order);
             }
         }
@@ -32,7 +32,7 @@ public class TopologicalSort {
     public static <T> void dfs(Map<T, List<T>> tree, T key, List<T> order) {
         if(tree.get(key) != null)
             for(var k: tree.get(key)) {
-                if(order.indexOf(k) == -1) {
+                if(!order.contains(k)) {
                     dfs(tree, k, order);
                 }
             }
